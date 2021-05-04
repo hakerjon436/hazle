@@ -1,0 +1,471 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+   background-color: gainsboro;   
+   width: 100vw;
+   height: 800vh;
+   z-index: 9999;
+}
+nav{
+    background-image: url(https://img1.goodfon.ru/wallpaper/nbig/c/b1/iphone-macbook-ruchka.jpg);
+    width: 90vw;
+    height: 100vh;
+    /* object-fit: cover; */
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+}
+
+.logo-navbar{
+    width: 13%;
+    padding: 25px;
+}
+.ul-navbar{
+    float: right;
+    color: white ;
+    
+}
+.ul-navbar > li {
+    display: inline-block;
+    padding: 25px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+.home{
+    display: inline-block;
+    padding: 25px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    position: relative;
+    color: gray;
+}
+.Pages{
+    display: inline-block;
+    padding: 25px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    position: relative;
+
+}
+.blog{
+    display: inline-block;
+    padding: 25px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-right: 50px;
+}
+.dropdown-menu li{
+    list-style: none;
+}
+.dropdown-menu {
+    position: absolute;
+    width: 200px;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    color: gray;
+    display: none;
+}
+.home-dd{
+    padding-top: 20px;
+    padding-left: 10px  ;
+
+}
+.home-two-dd{
+    padding-top: 20px;
+    padding-left: 10px  ;
+}
+.home-fife-dd{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px  ;
+
+}
+.home:hover .dropdown-menu{
+    display: block;
+    
+}
+.div-two-dropdown-menu{
+    display: none;
+    position: absolute;
+    width: 200px;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    color: gray;
+}
+.Pages:hover .div-two-dropdown-menu{
+    display: block;
+}
+.one-page-one-text{
+    text-align: center;
+    letter-spacing: 7px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    color: gray;
+    margin-top: 150px   ;
+    line-height: 5;
+}
+.one-page-two-text{
+    text-align: center;
+    letter-spacing: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+}
+.button-left-one-page{
+    display: inline-block;
+    background-color: transparent;
+    border: solid 1px white;
+    width: 120px ;
+    padding: 7px 0;
+}
+.p{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: gray;
+}
+.right-button-one-page{
+    background-color: transparent;
+    border: solid 1px white;
+    width: 120px ;
+    padding: 7px 0;
+}
+.right-button-one-page:hover{
+    background-color: black;
+    color: white;
+}
+.button-left-one-page:hover{
+    background-color: black;
+    color: white;
+
+}
+.two-button-div{
+    text-align: center;
+    margin-top: 50px;
+}
+.fa-circle{
+    display: inline-block;
+    color: white;
+}
+.two-round-div{
+    margin-top: 150px;
+    margin-left: 600px;
+}
+.two-round-div:hover{
+    border-radius: 50px;
+    background-color: gray;
+    width: 37px;
+    height: 20px;
+}
+.bk-two-page{
+    background-color: white;
+    width: 90vw ;
+    height: 70vh        ;
+    margin: 0 auto;
+}
+.fa-business-time{
+    color: gray;
+}
+.div-one-box{
+    width: 25%;
+    text-align: center;
+    display: inline-block;
+    margin: 30px;
+}
+.all-div-box{
+    text-align: center;
+    padding-top: 100px;
+}
+.one-box-one-text{
+    font-family: sans-serif;
+    color: rgb(75, 74, 74);
+    margin-top: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.one-box-two-text{
+    color: gray;
+    margin-top: 20px;
+}
+.fa-square{
+    color: gray;
+}
+.fa-laptop{
+    color: gray;
+}
+.free-page-bk{
+    background-color: rgb(189, 188, 188);
+    width: 90vw;
+    height: 80vh;
+    margin: 0 auto;
+}
+.free-page-one-text{
+    color: rgb(92, 92, 92);
+    font-family: sans-serif;
+    letter-spacing: 10px;
+    font-weight: 300;
+}
+.free-page-right-div{
+    width: 45%;
+    text-align: left;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.free-page-right-one-text{
+    color: rgb(92, 92, 92);
+    margin-top: 25px;
+}
+.free-page-right-two-text{
+    color: rgb(92, 92, 92);
+    margin-top: 20px;
+  
+}
+.free-paga-left-button{
+    margin-top: 50px;
+    width: 230px;
+    border: solid  black 2px ;
+    padding: 7px 0;
+    background-color: transparent;
+}
+.six-page-bc{
+    background-color: white;
+    width: 90vw;
+    height: 150vh;
+    margin: 0 auto;
+}
+.six-page-one-text{
+    letter-spacing: 10px;
+    font-family: 'Josefin Sans', 'Arial', 'sans-serif';
+    font-weight: 100;
+    font-size: 40px;
+    color: #303030;
+    padding-top: 100px;
+    width: 95%;
+    padding-left: 80px;
+}
+.two-p{
+    color: gray;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.free-p{
+    color: rgb(77, 75, 75);
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.one-text-left-p{
+    /* width: 25%; */
+    margin-top: 20px;
+    display: inline-block;
+}
+.div-all-p{
+    line-height: 1.5;
+    font-family: 'Muli', 'Arial', 'sans-serif' ,sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    color: #595959;
+    margin-top: 100px;
+    width: 25%;
+    margin-left: 50px;
+    text-align: left;
+    vertical-align: middle;
+    display: inline-block;
+}
+.div-range{
+    display: inline-block;
+}
+.ranve-one{
+    background-color: black;
+    width: 300px;
+    height: 5px ;
+}
+.range-text{
+    margin-top: 20px;
+    display: inline-block;
+}
+.right-nine{
+    display: inline-block;
+    margin-left: 150px   ;
+}
+.right-nine-two{
+    display: inline-block;
+    margin-left: 150px  ;
+}
+.ranve-two{
+    background-color: black;
+    width: 250px;
+    height: 5px ;
+}
+.right-nine-free{
+    display: inline-block;
+    margin-left: 100px  ;
+}
+.right-nine-four{
+    display: inline-block;
+    margin-left: 70px;
+}
+.ranve-free{
+    background-color: black;
+    width: 220px;
+    height: 5px ;
+}
+.ranve-four{
+    background-color: black;
+    width: 180px;
+    height: 5px ;
+
+}
+.seven-page-bc{
+    background-image: url(https://99px.ru/sstorage/53/2012/02/tmb_34210_9178.jpg);
+    width: 90vw;
+    height: 100vh;
+    margin: 0 auto;
+    background-attachment: fixed;
+}
+.sp-box-div-all{
+    text-align: center  ;
+    margin-top: 50px;
+}
+.seven-page-one-text{
+    color: white;
+    font-family: 'Hind', 'Arial', 'sans-serif';
+    font-weight: 300;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 200px;
+}
+.fa-history{
+    color: white;
+}
+.fa-rocket{
+    color: white;
+}
+.sp-one-text{
+    color: white;
+    line-height: 1.3em;
+    font-weight: 500;
+    font-size: 45px;
+    padding-top: 10px;
+}
+.div-one-box-sp{
+    width: 20%;
+    text-align: center;
+    display: inline-block;
+}
+.sp-two-text{
+    color: white;
+    padding-top: 10px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-family: 'Muli', 'Arial', 'sans-serif' ,sans-serif;
+}
+.fa-user{
+    background-color: transparent;
+    color: white;
+}
+.fa-share-alt{
+    color: white;
+}
+.eght-page-bk{
+    background-color: white;
+    width: 90vw;
+    height: 100vh   ;
+    margin: 0 auto;
+}
+.ep-one-text{
+    text-align: center;
+    font-family: 'Hind', 'Arial', 'sans-serif';
+    font-weight: 300;
+    font-size: 22px;
+    color: #303030;
+    letter-spacing: 4px;
+}
+.fa-palette{
+    color: gray;
+
+}
+.div-one-box{
+    text-align: center;
+    width: 20%;
+}
+.div-one-box-ep{
+    width: 20%;
+    text-align: center;
+    margin-top: 30px;
+    display: inline-block;
+    margin: 0 auto;
+}
+.div-one-box-epp{
+    width: 20%;
+    text-align: center;
+    margin-top: 30px;
+    display: inline-block;
+    margin: 0 auto;
+   margin-left: 100px;
+}
+.ep-one-text-box{
+  font-family: sans-serif;
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-top: 20px;
+}
+.ep-two-text-box{
+    font-family: 'Muli', 'Arial', 'sans-serif' ,sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: 20px;
+    color: #595959;
+    line-height: 1.5;
+}
+.all-div-ep-box{
+    text-align: center;
+    margin-top: 100px;
+}
+.fa-crown{
+    color: gray;
+}
+.fa-film{
+    color: gray;
+}
+.fa-heart{
+    color: gray;
+}
+.fa-store{
+    color: gray;
+}
+.fa-star{
+    color: gray;
+}
+.bk-nine-page{
+    background-color: black;
+    margin: 0 auto;
+    width: 90vw;
+    height: 40vh;
+}
+.nine-page-one-text{
+    text-align: center;
+    color: white;
+    font-family: 'Muli', 'Arial', 'sans-serif' ,sans-serif;
+    letter-spacing: 5px;
+    font-weight: 300;
+    padding-top: 70px;
+}
+.nine-page-button{
+    width: 180px;
+    padding: 10px 0;
+    background-color: transparent   ;
+    /* border-radius: none;    */
+}
